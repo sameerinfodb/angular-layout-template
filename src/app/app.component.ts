@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ngcliprojecttmplt';
+
+  navigation = [
+    { link: '/products', label: 'Products' },
+    { link: '/inventory', label: 'Inventory Management' },
+    { link: '/master', label: 'Master' }
+  ];
+  navigationSideMenu = [...this.navigation];
 }

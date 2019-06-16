@@ -1,0 +1,4 @@
+$poss-black-primary: mat-palette($mat-grey, 700, 300, 900);
+$poss-black-accent: mat-palette($mat-blue-grey, 400);
+$poss-black-warn: mat-palette($mat-red, 500);
+$poss-black-theme: mat-dark-theme( $poss-black-primary, $poss-black-accent, $poss-black-warn);
